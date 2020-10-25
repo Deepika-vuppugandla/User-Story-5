@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+    *{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+}
+.header{
+    background-color:#f1f1f1;
+    padding:20px;
+    text-align:center;
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#333;
+}
+li {
+ float:left;
+}
+li a{
+    display:block;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+}
+li a:hover:not(.active){
+    background-color:gray;
+}
+.active{
+    background-color:green;
+}
+.topnav a:hover{
+    background-color:#ddd;
+    color:beige;
+}
+
+.column{
+    float:left;
+    width:50%;
+    padding:100px;
+}
+
+.row:after{
+    content:"";
+    display:table;
+    clear:both;
+}@media screen and(max-width:600px){
+    .column{
+        width:100%;
+    }
+}
+
+
+.footer{
+    background-color:rosybrown;
+    padding:10px;
+    text-align:center;
+}
+
+
+</style>
+</head>
+<body background="Book1.jpg">
+<div class="header">
+<h1>Book Management System</h1>
+</div>
+<ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="login.html"> Login</a></li>
+    <li><a href="register.html"> Register</a></li>
+    <li><a href="addBook.html"> Add Book</a></li>
+    <li><a href="Book.html"> Book</a></li>
+   
+    <li><a href="SearchBook.html"> SearchBook</a></li>
+    <li><a href="ShowBook.html"> ShowBook</a></li>
+    <li><a href="UpdateBook.html"> UpdateBook</a></li>
+</ul>
+
+<div class="column">
+    <h2>Details</h2>
+    <p> You can  View details of my book management web site here</p><br>
+    <p>Add Book</p>
+    <p>Search Books</p>
+    <p> Update Book</p>
+</div>
+<div class="row">
+    <div class="column">
+    <h2>Main Point</h2>
+    <p>Fill all the forms as per the requirement </p>
+    
+     
+</div>
+</div>
+<div class="footer">
+    <p> <h4>Thank you, Visit again</h4></p>
+</div>
+</body>
+</html>
